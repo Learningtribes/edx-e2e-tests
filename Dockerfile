@@ -2,10 +2,10 @@
 #
 # From the root of the edx-e2e-tests repository:
 #
-# docker build . -t edxops/e2e:latest
+# docker build . -t ltdps/e2e:hawthorn.lt
 
 FROM edxops/python:2.7
-MAINTAINER edxops
+MAINTAINER ltdps
 
 # Install system libraries needed for lxml
 RUN apt-get update -qqy \

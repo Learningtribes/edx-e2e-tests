@@ -44,7 +44,7 @@ reports
 .vagrant
 
 # Repo we cloned for page objects
-lib/edx-platform
+lib/platform
 src
 
 # Logs and screenshots on failure

@@ -32,12 +32,12 @@ def install_pages():
     lib_path = path(os.path.join(repo_root, 'lib'))
     # Path to setup.py of pages package
     page_obj_setup_path = path(os.path.join(
-        lib_path, 'edx-platform', 'common',
+        lib_path, 'platform', 'common',
         'test', 'acceptance', 'setup.py'))
 
     xmodule_path = path(os.path.join(
         lib_path,
-        'edx-platform',
+        'platform',
         'common',
         'lib',
         'xmodule'
@@ -45,7 +45,7 @@ def install_pages():
 
     capa_path = path(os.path.join(
         lib_path,
-        'edx-platform',
+        'platform',
         'common',
         'lib',
         'capa'
